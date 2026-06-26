@@ -1,5 +1,41 @@
 body {
-    height: 100vh;
     color: rgb(255, 255, 255);
     background-color: rgb(56, 56, 56);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBlc3BhY2lvfGVufDB8fDB8fHww);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-top: auto;
+    font-size:2cm;
+}
+
+#egg{
+    color: peru;
+}
+#king{
+    color: gold;
+}
+
+#Boton{
+    position: relative;
+    width:400px ;
+    top: 100px;
+}
+#dinero{
+    position: absolute;
+    font-size: 1cm;
+    top: 470px;
+    left: 360px;
+}
+#boton_musica{
+    width: 58px;
+    height: 30px;
+    position: fixed;
+    top: 95%;
+    left: auto;
 }
